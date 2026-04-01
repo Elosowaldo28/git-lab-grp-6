@@ -1,0 +1,19 @@
+package pe.edu.tecsup.lab;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StudentController {
+
+    public List<String> getStudents() {
+        List<String> students = new ArrayList<>();
+        
+        // Agregando lógica básica (puedes añadir más nombres aquí)
+        students.add("Estudiante del Grupo 6 - Registro 1");
+        students.add("Estudiante del Grupo 6 - Registro 2");
+        
+        System.out.println("Listado de estudiantes generado con éxito.");
+        return students;
+    }
+
+}
